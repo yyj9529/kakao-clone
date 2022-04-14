@@ -11,3 +11,58 @@
 body{
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+/*options*/
+.friends-options{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.friends-options span{
+    width: 50%;
+    font-size: 30px;
+    color: black;
+    margin-left: 20px;
+}
+
+.friends-options__column{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.friends-options__column i {
+    margin-right: 30px;
+}
+
+
+/*friends header*/
+
+.friends-header{
+    background-color: var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.friends-header i {
+    margin: 0px 10px;
+}
+
+
+
+
+
+
+/*navigation*/
+.friends-navigation__column {
+    padding: 20px 40px;
+    background-color: var(--gray);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+
