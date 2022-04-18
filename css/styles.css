@@ -4,19 +4,30 @@
 @import "reset.css";
 /*Components*/
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 @import "variables.css";
+
 /*Screens*/
 @import "screens/login.css";
 
 body{
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 1000vh;
 }
+
+
+.friends-layout{
+    display: flex;
+    flex-direction: column;
+}
+
 
 /*options*/
 .friends-options{
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    height: 10%;
 }
 
 .friends-options span{
@@ -46,18 +57,103 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px 0px;
+    height: 10%;
 }
 
 .friends-header i {
     margin: 0px 10px;
 }
 
+/*profile*/
+.profile{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    border-bottom: var(--gray);
+    padding: 15px 25px;
+}
+
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    
+}
+
+.profile h1{
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+
+.channel{
+    height: 55%;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.channel :first-child{
+    display: flex;
+    align-items: center;
+}
+
+.channel__cloumn__title{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    
+}
 
 
 
+.channel__cloumn__direction{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
+
+
+
+
+
+.channel :last-child{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.channel__cloumn__logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  
+}
+
+.channel__cloumn__count{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.channel__cloumn__logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.friends-navigation {
+    height: 10%;
+}
 
 
 /*navigation*/
+
+/*
 .friends-navigation__column {
     padding: 20px 40px;
     background-color: var(--gray);
@@ -66,3 +162,4 @@ body{
     justify-content: space-between;
 }   
 
+*/

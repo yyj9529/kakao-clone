@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" class="nav__link" href="css/styles.css"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,40 +26,100 @@
             <!--Lightning Icon-->
         </div>
     </div>
-
-    <div class="friends-options">
-        <span>Freinds</span>
-        <div class="friends-options__column">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-music"></i>
-            <i class="fa-solid fa-gear"></i>
+    <div class="friends-layout">
+        <div class="friends-options">
+            <span>Freinds</span>
+            <div class="friends-options__column">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-music"></i>
+                <i class="fa-solid fa-gear"></i>
+            </div>
         </div>
+    
+
+        <header class="friends-header">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <span>Friends'Names Display</span>
+            <i class="fa-solid fa-angle-right"></i>
+        </header>
+
+        <main>
+            <section class="profile">
+                <img src="images/IMG_0033.JPG"/>
+                <h1>Cain</h1>
+            </section>
+
+            <section class="channel">
+                <div class="channel__cloumn">
+                    <div class="channel__cloumn__title">
+                        <span>Channel</span>
+                    </div>
+
+                    <div class="channel__cloumn__direction">
+                        <i class="fa-solid fa-angle-up"></i>
+                    </div>
+            
+                </div>
+                
+                
+                <div class="channel__cloumn">
+                    <div class="channel__cloumn__logo">
+                        <img src="images/Kakao_Bank_of_Korea_Logo.jpg"/>
+                        <span>Channel</span>
+                    </div> 
+
+                    <div class="channel__cloumn__count">
+                        <span>2</span>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+        <!--
+            my navagation_bar
+        <nav class="friends-navigation">
+            <div class="friends-navigation__column">
+                <i class="fa-solid fa-user-large"></i>
+                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+        </nav>
+
+        shortcut tip
+        
+        nav>ul>li*4
+        nav>ul>li*4>a
+    -->
+       <nav class="nav">
+           <ul class="nav__list">
+               <li class="nva__btn">
+                   <a class="nav__link" href="freinds.html">
+                        <i class="fa-solid fa-user-large"></i>
+                    </a>
+                </li>
+               <li class="nva__btn">
+                   <a id="whywhy"class="nav__link" href="#">
+                       <span class="nav__notification">1</span>
+                        <i class="fa-solid fa-comment"></i>
+                   </a>
+                </li>
+               <li class="nva__btn">
+                   <a class="nav__link" href="#">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                   </a>
+                </li>
+               <li class="nva__btn">
+                    <a class="nav__link" href="#">
+                        <span class="nav__redcircle"></span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </a>
+                </li>
+           </ul>
+       </nav>
+
     </div>
-  
-
-    <header class="friends-header">
-        <i class="fa-solid fa-circle-exclamation"></i>
-        <span>Friends'Names Display</span>
-        <i class="fa-solid fa-angle-right"></i>
-    </header>
-
-    <main>
-        <section class="profile">
-            <img src=""/>
-        </section>
-
-    </main>
-
-    <nav class="friends-navigation">
-        <div class="friends-navigation__column">
-            <i class="fa-solid fa-user-large"></i>
-            <i class="fa-solid fa-comment"></i>
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-ellipsis"></i>
-        </div>
-    </nav>
-
-
     <script src="https://kit.fontawesome.com/bddb16264e.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,66 @@
+.nav{
+    position: fixed;
+    bottom: 0;
+    background-color: var(--gray);
+    padding: 20px 50px;
+    /*widht를 100%준상태로 padding을 줬기에  padding크기만큼 elelemnt가 보이지 않음 box-sizing : boder-box 속성을 주면  
+    css가 padding, border + width 
+        = 처음 설정한 widht 로 인식함  */
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    width: 100%;
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    color: inherit;
+}
+
+.nav__link{
+    /*for notification*/
+   position: relative;
+  /* background-color: #2e363e;*/
+}
+
+/*
+position relative 일때
+#whywhy{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+*/
+
+
+.nav__notification{
+    background-color: tomato;
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 200;
+    position: absolute;
+    left: 10px;
+    bottom : 10px;
+ 
+    /*
+    position: relative;
+    top : -13px;
+    right: -30px;
+  */ 
+}
+
+.nav__redcircle{
+    display: flex;
+    width: 5px;
+    height: 5px;
+    background-color: tomato;
+    border-radius: 3px;
+    position: absolute;
+    left: 15px;
+    bottom: 17px;
+}
