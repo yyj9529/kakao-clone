@@ -52,3 +52,34 @@
 .user-component__column:last-child{
     color: rgba(0,0,0,0.5);
 }
+
+.user-component__column--chat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-component__column--chat--clock{
+    text-align: center;
+    color: rgba(0,0,0,0.3);
+}
+
+.user-component__column--chat--message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.chat_cloumn{
+    margin-bottom: 10px;
+}
+
+.chat_main{
+    padding: 0px var(--horizontal-space);
+}
+
