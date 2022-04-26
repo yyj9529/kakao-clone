@@ -64,16 +64,7 @@
     color: rgba(0,0,0,0.3);
 }
 
-.user-component__column--chat--message{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: tomato;
-    color: white;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-}
+
 
 .chat_cloumn{
     margin-bottom: 10px;

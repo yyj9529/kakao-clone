@@ -12,6 +12,8 @@
 /*Screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "badge.css";
+@import "components/find.css";
 
 body{
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
