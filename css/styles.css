@@ -14,6 +14,7 @@
 @import "screens/friends.css";
 @import "badge.css";
 @import "components/find.css";
+@import "screens/more.css";
 
 body{
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
